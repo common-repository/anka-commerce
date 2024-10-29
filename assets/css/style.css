@@ -1,0 +1,9 @@
+.payment_method_ankapay label {
+  display: contents;
+  width: 100%;
+
+  img {
+    max-height: 32px;
+    float: right;
+  }
+}

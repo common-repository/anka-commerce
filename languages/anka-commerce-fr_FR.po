@@ -1,0 +1,98 @@
+# Copyright (C) 2024
+# This file is distributed under the GPL-3.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: ANKA Commerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/anka-commerce\n"
+"POT-Creation-Date: 2024-07-15T15:36:55+00:00\n"
+"PO-Revision-Date: 2024-07-27 20:59+0100\n"
+"Last-Translator: \n"
+"Language-Team: tech-support@anka.africa\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Domain: anka-commerce\n"
+
+#. Plugin Name of the plugin
+#: anka-commerce.php
+msgid "ANKA Commerce"
+msgstr "ANKA Commerce"
+
+#. Description of the plugin
+#: anka-commerce.php includes/class-anka-commerce-gateway-anka-pay.php:38
+msgid ""
+"Accept payments through ANKA Pay on your WooCommerce store using Credit "
+"Cards, Mobile Money, Nigerian Bank Transfer, and PayPal."
+msgstr ""
+"Acceptez les paiements via ANKA Pay sur votre boutique WooCommerce en "
+"utilisant des Cartes de crédit, Mobile Money, les Transferts Bancaires "
+"Nigérians, et PayPal."
+
+#: anka-commerce.php:145
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/class-anka-commerce-gateway-anka-pay.php:33
+#: includes/class-anka-commerce-gateway-anka-pay.php:37 build/block.js:1
+#: src/blocks/index.js:8
+msgid "ANKA Pay"
+msgstr "ANKA Pay"
+
+#: includes/class-anka-commerce-gateway-anka-pay.php:59
+msgid "API Token"
+msgstr "Token API"
+
+#. translators: %s: URL to ANKA Pay API settings
+#: includes/class-anka-commerce-gateway-anka-pay.php:62
+msgid ""
+"Find your API Token in your API and Webhook Settings <a href=\"%s\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+"Trouvez votre jeton API dans vos paramètres API et Webhook <a href=\"%s\" "
+"target=\"_blank\">ici</a>."
+
+#: includes/class-anka-commerce-gateway-anka-pay.php:68
+msgid "Description"
+msgstr "Description"
+
+#: includes/class-anka-commerce-gateway-anka-pay.php:69
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+"Ceci détermine la description que les utilisateurs verront durant la "
+"commande."
+
+#: includes/class-anka-commerce-gateway-anka-pay.php:71
+msgid "Pay using Credit Card, Mobile Money, Nigerian Bank Transfer or PayPal."
+msgstr ""
+"Payez par Carte de crédit, Mobile Money, Virement bancaire nigérian ou "
+"PayPal."
+
+#: includes/class-anka-commerce-gateway-anka-pay.php:103
+#: includes/class-anka-pay-webhook-handler.php:60
+msgid "Awaiting ANKA Pay payment"
+msgstr "En attente du paiement ANKA Pay"
+
+#. translators: 1: WooCommerce settings URL
+#: includes/class-anka-commerce-gateway-anka-pay.php:128
+msgid ""
+"ANKA Pay is enabled, but the checkout page is not forced to use HTTPS. "
+"Please ensure your checkout page is secure by forcing SSL on the checkout "
+"pages in the %s."
+msgstr ""
+"ANKA Pay est activé, mais la page de paiement n’est pas forcée à utiliser "
+"HTTPS. Veuillez vous assurer que votre page de paiement est sécurisée en "
+"forçant l’utilisation de SSL sur les pages de paiement dans le %s."
+
+#: includes/class-anka-commerce-gateway-anka-pay.php:129
+msgid "WooCommerce settings"
+msgstr "Paramètres WooCommerce"
+
+#: includes/class-anka-pay-webhook-handler.php:64
+msgid "Verifying ANKA Pay payment"
+msgstr "Vérification du paiement ANKA Pay"
+
+#: includes/class-anka-pay-webhook-handler.php:70
+msgid "ANKA Pay payment failed"
+msgstr "Échec du paiement ANKA Pay"
